@@ -1,0 +1,43 @@
+.addStudent {
+	cursor: pointer;
+}
+
+.table-search-add {
+	display: flex;
+	align-items: baseline;
+}
+
+.table-search-add > div {
+	margin: 5px;
+}
+
+.expand-div {
+	display: grid;
+	width: 100%;
+	grid-template-columns: auto auto auto auto;
+}
+
+.expand-data {
+	display: flex;
+	width: 100%;
+}
+
+.expand-data > p {
+	margin-right: 5px;
+}
+
+.expand-buttons {
+	width: 100%;
+	display: flex;
+}
+.expand-buttons > button {
+	margin: 3px;
+}
+
+.btn-secondary:focus,
+.btn-secondary-dark:active,
+.btn-danger:focus,
+.btn-danger:active {
+	box-shadow: none !important;
+	outline: 0px !important;
+}

@@ -1,0 +1,14 @@
+.periods {
+	display: flex;
+	margin-left: 10px;
+}
+.periods > div > label {
+	margin-left: 3px;
+	margin-right: 10px;
+}
+
+.btn-outline-dark:focus,
+.btn-outline-dark:active {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
